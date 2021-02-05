@@ -1,0 +1,101 @@
+.cardsContainer {
+    margin-top: 50px;
+    position: fixed;
+    top: 65vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+.card {
+    margin: 10px !important;
+}
+
+.MuiPaper {
+    color: rgb(255 255 255 / 87%);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-color: #03121c !important;
+    border: 1px solid #5d5d5d66 !important;
+}
+
+.colorTextSecondary {
+    color: #a3a1a1;
+}
+
+.colorPrimary {
+    color: #e3dede;
+}
+
+.container {
+    position: relative;
+    top: 63vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.MuiInputBase {
+    color: rgb(255 255 255 / 87%);
+    cursor: text;
+    display: inline-flex;
+    position: relative;
+    font-size: 1rem;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.1876em;
+    letter-spacing: 0.00938em;
+}
+
+.media {
+    height: 165px;
+    position: relative;
+    margin-bottom: 10px;
+  }
+
+.options {
+    color: #fff !important;
+    background-color: #5d5d5d66 !important;
+    border-radius: 10px !important;
+    text-align: center !important;
+}
+
+.optionsSelect{
+    background-color: #5d5d5d66 !important;
+    color: #fff;
+    border-radius: 10px !important;
+}
+
+.box {
+    background-color: #5d5d5d66;
+    border-radius: 10px;
+    width: 200px;
+    margin-bottom: 40px !important;
+}
+
+.MuiNativeSelect-icon {
+    top: calc(50% - 12px);
+    color: rgb(255 255 255 / 54%) !important;
+    right: 0;
+    position: absolute;
+    pointer-events: none;
+}
+@media only screen and (max-width: 600px) {
+    .cardsContainer {
+        margin-top: 50px;
+        position: fixed;
+        top: 72vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: auto;
+        margin-right: auto;
+        overflow-y: scroll;
+        overflow-x: scroll;
+    }
+  }

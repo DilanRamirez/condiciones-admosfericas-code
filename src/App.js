@@ -1,26 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import styles from './App.module.css';
+import { WebMapView } from './components/WebMapView/WebMapView';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { fetchData } from  './api';
+import Cards from './components/Cards/Cards';
+import CityPicker from './components/CityPicker/CityPicker'
+
+class App extends React.Component {
+
+  state = {
+    data: {}
+  }
+
+  async componentDidMount() {
+    const data = await fetchData();
+    
+    this.setState({data})
+  }
+  render() {
+
+    const {data} = this.state;
+    return (
+      <div className={styles.App}>
+        <WebMapView/>
+        <CityPicker className={styles.CityPicker} data={data}/>
+        {/* <Cards data={data}/> */}
+      </div>
+    );
+  }
+
+  ///https://www.iconfinder.com/iconsets/isometric-farm-people
+  
 }
 
 export default App;

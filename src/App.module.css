@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.esri-ui-corner {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.esri-view .esri-view-surface--inset-outline {
+  outline: 0;
+  border-radius: 10px !important;
+}
+
+.CityPicker {
+  margin-bottom: 100px !important;
+}
