@@ -1,5 +1,5 @@
 
-![HTML](https://github.com/DilanRamirez/condiciones-admosfericas-code)
+![HTML](https://github.com/DilanRamirez/condiciones-admosfericas-code/blob/main/Condiciones-admosfericas.png)
 
 ## About
 This React JS web application use data from https://datos.gob.mx/ to display in a interactive 3D map different weather conditions from different states in Mexico.
