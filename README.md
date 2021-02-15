@@ -9,6 +9,13 @@ This project was more advanced than the previous ones because here I was using E
 Moreover, I used a select form to choose and display a certain place's weather data. I like this app because I implemented all the knowledge gotten in my current job, and all the knowledge I learned from React to mix it and create a new web application.
 
 ## Used
+![HTML](https://img.icons8.com/color/48/000000/html-5.png)
+![css](https://img.icons8.com/ultraviolet/48/000000/css.png)
+![css](https://img.icons8.com/color/48/000000/bootstrap.png)
+<img src="https://material-ui.com/static/logo.png" width="60" height="60">
+![css](https://img.icons8.com/color/48/000000/react-native.png)
+<img src="https://airspacelink.com/wp-content/uploads/2019/02/esri_small_logo.png" width="60" height="60">
+
 
 ## Available Scripts
 
