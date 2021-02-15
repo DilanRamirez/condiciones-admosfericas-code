@@ -1,4 +1,14 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+![HTML](https://github.com/DilanRamirez/condiciones-admosfericas-code)
+
+## About
+This React JS web application use data from https://datos.gob.mx/ to display in a interactive 3D map different weather conditions from different states in Mexico.
+
+This project was more advanced than the previous ones because here I was using Esri API to generate the 3D map and draw all the symbols, pop-ups, and points in the map.
+
+Moreover, I used a select form to choose and display a certain place's weather data. I like this app because I implemented all the knowledge gotten in my current job, and all the knowledge I learned from React to mix it and create a new web application.
+
+## Used
 
 ## Available Scripts
 
