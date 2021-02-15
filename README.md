@@ -14,7 +14,7 @@ Moreover, I used a select form to choose and display a certain place's weather d
 ![css](https://img.icons8.com/color/48/000000/bootstrap.png)
 <img src="https://material-ui.com/static/logo.png" width="60" height="60">
 ![css](https://img.icons8.com/color/48/000000/react-native.png)
-<img src="https://airspacelink.com/wp-content/uploads/2019/02/esri_small_logo.png" width="60" height="60">
+<img src="https://airspacelink.com/wp-content/uploads/2019/02/esri_small_logo.png" width="90" height="60">
 
 
 ## Available Scripts
